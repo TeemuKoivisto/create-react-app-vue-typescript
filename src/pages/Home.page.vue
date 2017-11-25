@@ -29,7 +29,7 @@ export default {
 .hello {
   margin: 5px;
   &__container {
-    background-color: red;
+    background-color: $color-primary
   }
 }
 </style>
