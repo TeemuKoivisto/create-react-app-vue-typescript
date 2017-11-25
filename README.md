@@ -1,9 +1,10 @@
-# create-react-app-vue-typescript
+# [kurssim.me](https://kurssim.me) frontend [![Build Status](https://travis-ci.org/varjo-oodi/kurssim.me-frontend.svg?branch=master)](https://travis-ci.org/varjo-oodi/kurssim.me-frontend)
 
-Unholy combination of power and virtue.
+New frontend with modified https://github.com/wmonk/create-react-app-typescript and Vue + Sass. Cuz why not :DD.
 
-Bootstrapepd with https://github.com/wmonk/create-react-app-typescript
+1) Install Node.js >=8 using nvm
+2) Clone this repository and enter `npm i`
+3) Get the course data with `./get-courses.sh` (if you don't have permissions to run it use `chmod 744 get-courses.sh`)
+4) Run it with `npm start`
 
-Which is a fork of [Create React App](https://github.com/facebookincubator/create-react-app)
-
-Uses Typescript, Vue, Sass and CRA as build-system.
+NOTE: You don't have to have backend running. All the data is in the JSON-file. Cool huh! (and cheap)

@@ -52,6 +52,7 @@
     "no-trailing-whitespace": false,
     "no-unused-expression": true,
     "no-use-before-declare": true,
+    "ordered-imports": false,
     "object-literal-sort-keys": false,
     "one-line": [
       true,

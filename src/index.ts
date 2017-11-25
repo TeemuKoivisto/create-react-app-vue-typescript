@@ -1,6 +1,6 @@
 
 import Vue from 'vue'
-import HomePage from './pages/Home.page.vue'
+import HomePage from '@/pages/Home.page.vue'
 
 // tslint:disable-next-line
 new Vue({
